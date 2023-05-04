@@ -1,0 +1,223 @@
+/* Julia Caro */
+/* April 22, 2023 */
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: lightgrey;
+}
+
+/* Removed all flex attributes */
+/* the main wrapper */
+.wrapper {
+	width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+	text-align: center;
+}
+
+/* the controls area */
+.controls {
+	width: 580px;
+	height: 37px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+  vertical-align: middle;
+	box-shadow: 3px 3px 3px #8c8c8b;
+}
+
+/* the search box */
+input {
+	width: 200px;
+	border-radius: 25px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+/* the search box text pre-click */
+input[type="text" i] {
+    padding: 0px 7px;
+}
+
+/* the submit button */
+.submit {
+	background-image: url("icons/magnifying glass/magnifying-glass.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	height: 23px;
+	width: 23px;
+	border: none;
+	cursor: pointer;
+	line-height: 40px;
+	margin-left: 2px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	position: absolute;
+}
+
+/* the submit button on hover */
+.submit:hover {
+	background-image: url("icons/magnifying glass/magnifying-glass-hover.png");
+}
+
+/* Removed all flex attributes */
+/* the video results area*/
+.results {
+	margin: auto;
+	background-color: #282828; 
+  min-height: 100%;
+	width: 580px;
+	height: 400px;
+  z-index: -100;
+  background-size: cover;
+  overflow: auto;
+	border-radius: 0 0 0 25px;
+	box-shadow: 3px 3px 3px #8c8c8b;
+}
+
+/* the scrollbar in the results area */
+.results::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* the track for the results scrollbar */
+.results::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+/* the thumb for the results scrollbar*/
+.results::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+/* the thumb for the results scrollbar on hover */
+.results::-webkit-scrollbar-thumb:hover {
+  background: #686868;
+}
+
+/* the iframe elements */
+iframe {
+	display: block;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* the last iframe element */
+iframe:last-child {
+	margin-bottom: 0px;
+}
+
+/* the title container */
+.titleDiv {
+	text-align: center;
+	font-size: 25px;
+	width: 580px;
+	height: 50px;
+	margin-top: 85px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px 25px 0 0;
+	background-color: #282828;
+	box-shadow: 3px 3px 3px #8c8c8b;
+}
+
+/* the youtube icon in the title container*/
+h1 img {
+	margin-top: 5px;
+	margin-left: -32px;
+	background-image: url("icons/youtube-icon.png");
+	height: 19px;
+	width: auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+  display: inline;
+	position: absolute;
+}
+
+/* the title text in the title container*/
+h1 {
+	margin-left: 10px;
+	margin-top: 20px;
+	padding-left: 61.625px;
+	padding-right: 28px;
+	font-size: 19px;
+	background-color: #ffffff;
+	color: #282828;
+	border-radius: 5px 5px 0 0;
+	height: 30px;
+	font-weight: normal;
+	text-align: left;
+	font-family: 'YouTube Sans', sans-serif;
+	position: absolute;
+}
+
+form {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* unused code; keeping just in case */
+
+/* h2 {
+  font-size: 40px;
+} 
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+	width: 200px;
+	position: absolute;
+}
+
+.prev {
+  float: left;
+	color: red;
+}
+
+.next {
+  float: right;
+	color: purple;
+}
+
+article {
+  padding: 0px;
+  margin-bottom: 0px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+}
+
+img {
+  float: right;
+  margin-left: 0px;
+  max-width: 200px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+span {
+  background-color: #ccc;
+  padding: 0px;
+  margin: 0px;
+} */
