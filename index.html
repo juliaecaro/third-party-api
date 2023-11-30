@@ -1,0 +1,43 @@
+<!-- Julia Caro -->
+<!-- April 22, 2023 -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube API</title>
+		<link rel="icon" type="image/x-icon" href="/icons/play-icon.png">
+    <!-- Apply both necessary API scripts to your HTML. The first is for the 
+		YouTube Data API, and the second is for the YouTube Iframe Player API -->
+    <script src="https://apis.google.com/js/client.js" type="text/javascript"></script>
+    <script src="https://www.youtube.com/iframe_api" type="text/javascript"></script>
+		<!-- adding the Youtube Sans font to the available fonts -->
+		<link href="https://fonts.cdnfonts.com/css/youtube-sans" rel="stylesheet">
+    <script src="script.js" defer></script>
+		<!-- linked the html page to the style.css stylesheet instead of the youtube.css stylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+			<div class="titleDiv">
+				<!-- added the youtube icon and moved the H1 element into the titleDiv -->
+				<h1><img src="icons/youtube-icon.png"> YouTube Video Search</h1>
+			</div>
+			
+	    <div class="wrapper">
+		    <div class="controls">
+					<form>
+						<!-- removed the paragraph elements and moved the label text to be a placeholder in the input box instead -->
+		        <input type="text" id="search" placeholder="Enter a search term" class="search" required>
+						<!-- Removed the 'Submit search' text on the submit button -->
+		        <button class="submit"></button>
+		  		</form>
+			</div>
+		
+		  <div class="results">
+		    <section>
+		    </section>
+		  </div>
+		</div>
+  </body>
+</html>
